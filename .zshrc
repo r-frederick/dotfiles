@@ -7,8 +7,8 @@ fi
 . $HOME/.asdf/completions/asdf.bash
 
 source ~/.config/zsh/teston.zsh
+source ~/.config/zsh/function.zsh
 source ~/.config/zsh/alias.zsh
-source ~/.config/zsh/export.zsh
 
 gpg-connect-agent updatestartuptty /bye
 
