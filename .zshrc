@@ -10,7 +10,10 @@ source ~/.config/zsh/teston.zsh
 source ~/.config/zsh/function.zsh
 source ~/.config/zsh/alias.zsh
 
+export SSH_AUTH_SOCK="$(gpgconf --list-dirs | grep agent-ssh-socket | cut -f 2 -d :)"
 gpg-connect-agent updatestartuptty /bye
+
+export PATH="$(yarn global bin):$PATH"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/ridge/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/ridge/Downloads/google-cloud-sdk/path.zsh.inc'; fi
