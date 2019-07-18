@@ -1,0 +1,6 @@
+[user]
+	email = ridge.frederick@gmail.com
+	name = Ridge Frederick
+	signingKey = 3127696D6CD6E87C86D0EAC8EF32263BDDAA0FE0
+[commit]
+	gpgsign = true

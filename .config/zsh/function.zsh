@@ -14,3 +14,8 @@ _fbr() {
            fzf-tmux -d $(( 2 + $(wc -l <<< "$branches") )) +m) &&
   git checkout $(echo "$branch" | sed "s/.* //" | sed "s#remotes/[^/]*/##")
 }
+
+_cdls() {
+  cd $1
+  ls -al
+}
