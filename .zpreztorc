@@ -12,7 +12,6 @@ zstyle ':prezto:load' pmodule \
   'utility' \
   'completion' \
   'git' \
-  'contrib-prompt' \
   'prompt'
 
 # Set the key mapping style to 'emacs' or 'vi'.
